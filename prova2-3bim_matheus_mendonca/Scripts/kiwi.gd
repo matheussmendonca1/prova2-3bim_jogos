@@ -12,7 +12,8 @@ func _on_body_entered(body: Node2D) -> void:
 	if $Anim.animation != "Hit":
 		$Anim.animation = "Hit"
 		$AudioStreamPlayer2D.play()
-		body.JUMP_VELOCITY = -800
+		body.JUMP_VELOCITY = 800
+		$"/root/Global".powerDown = true
 
 func _on_anim_animation_finished() -> void:
 	queue_free()

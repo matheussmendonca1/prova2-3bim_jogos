@@ -13,4 +13,5 @@ func _process(delta: float) -> void:
 
 func _on_fail_zone_body_entered(body: Node2D) -> void:
 	$"/root/Global".vidas = $"/root/Global".vidas - 1
+	$'/root/Global'.powerDown = false
 	get_tree().reload_current_scene()

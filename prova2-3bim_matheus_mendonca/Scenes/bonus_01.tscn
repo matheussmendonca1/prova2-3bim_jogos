@@ -4,7 +4,7 @@
 [ext_resource type="Texture2D" uid="uid://kpcn1gqkswf2" path="res://Assets/Terrain/Terrain (16x16).png" id="1_p0f1f"]
 [ext_resource type="PackedScene" uid="uid://depi8pcymf215" path="res://Scenes/apple.tscn" id="3_aecrl"]
 [ext_resource type="PackedScene" uid="uid://diabbklj8x3d2" path="res://Scenes/player.tscn" id="4_vkg84"]
-[ext_resource type="PackedScene" uid="uid://h77id4ex7qw8" path="res://Scenes/kiwi.tscn" id="5_hw3vv"]
+[ext_resource type="PackedScene" uid="uid://h77id4ex7qw8" path="res://Scenes/banana.tscn" id="5_hw3vv"]
 [ext_resource type="PackedScene" uid="uid://6685ovyw57qe" path="res://Scenes/blue_bird.tscn" id="6_xw6vx"]
 [ext_resource type="PackedScene" uid="uid://ctt2ej2xb6ma5" path="res://Scenes/mushroom.tscn" id="7_0wqvf"]
 [ext_resource type="Texture2D" uid="uid://df6s6epa3whj6" path="res://Assets/Checkpoints/End/End (Pressed) (64x64).png" id="8_rjcud"]
