@@ -431,6 +431,6 @@ volume_db = -22.781
 autoplay = true
 
 [node name="BossPlant" parent="." instance=ExtResource("11_mrf1w")]
-position = Vector2(2197, 426)
+position = Vector2(2187, 427)
 
 [connection signal="body_entered" from="FailZone" to="." method="_on_fail_zone_body_entered"]

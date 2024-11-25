@@ -6,4 +6,4 @@ const JUMP_VELOCITY = -400.0
 
 
 func _physics_process(delta: float) -> void:
-	move_and_slide()
+	$exibeVidas.value = $"/root/Global".vidasBoss * 10
